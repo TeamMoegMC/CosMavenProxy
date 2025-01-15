@@ -44,7 +44,7 @@ public class FileSystemService implements CallBack {
 	 * The dest.<br>
 	 * 成员 dest.
 	 */
-	CosFS fs=new CosFS("maven-1301510336","ap-guangzhou");
+	CosFS fs=new CosFS("maven-1301510336","accelerate");
 	/**
 	 * The format.<br>
 	 * 成员 format.

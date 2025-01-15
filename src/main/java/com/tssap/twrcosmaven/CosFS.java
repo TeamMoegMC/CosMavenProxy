@@ -59,6 +59,7 @@ public class CosFS{
 		putObjectRequest.setTrafficLimit(64 * 1024 * 1024);
 		logger.info("uploading "+path);
 		Upload upload = transferManager.upload(putObjectRequest);
+		//upload.addProgressListener(null);
 		try {
 			upload.waitForCompletion();
 		} catch (CosClientException | InterruptedException e) {
